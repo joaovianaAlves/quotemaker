@@ -57,7 +57,7 @@ export default function App() {
   return (
     <main className="flex h-screen flex-col items-center justify-between p-24 bg-black">
       {quote.map((quote) => (
-        <div className="flex flex-col w-2/3 items-center justify-center mt-56">
+        <div className="flex flex-col w-2/3 items-center justify-center mt-40">
           <div className="p-8 text-white">
             <p className="text-start font-bold text-6xl">“{quote.quote}”</p>
             <p className="text-start font-thin italic text-2xl pt-10">
@@ -67,7 +67,7 @@ export default function App() {
         </div>
       ))}
       <button
-        className="border hover:opacity-45 text-white font-medium text-2xl py-2 px-4 mb-96 rounded"
+        className="border hover:opacity-45 text-white font-medium text-2xl py-2 px-4 mb-36 rounded"
         onClick={handleClick}
       >
         Generate Quote
